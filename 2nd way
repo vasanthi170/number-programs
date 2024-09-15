@@ -1,0 +1,7 @@
+num = 17
+for den in range(2,num//2+1):
+    if num % den==0:
+        print('not prime')
+        break
+else:
+    print('prime number')
