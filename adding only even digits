@@ -1,0 +1,9 @@
+#adding only even digits
+num = 1234
+res = 0
+while num!=0:
+    rem = num%10
+    if rem % 2 == 0:
+        res = res+rem
+    num //= 10
+print(res)
