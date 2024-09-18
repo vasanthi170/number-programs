@@ -1,0 +1,10 @@
+#integer to binary 
+num = 14
+res = 0
+pos = 1
+while num!= 0:
+    rem = num % 2
+    res = res+(rem*pos)
+    num = num//2
+    pos = pos*10
+print (res)
