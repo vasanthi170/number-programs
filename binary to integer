@@ -1,0 +1,10 @@
+#binary to integer
+num = 1110
+res = 0
+pos = 0
+while num!=0:
+    rem = num%10
+    res = rem*2**pos + res
+    num = num//10
+    pos = pos+1
+print (res)
