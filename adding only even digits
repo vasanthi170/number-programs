@@ -1,4 +1,4 @@
-#adding only even digits
+#adding only even digits 
 num = 1234
 res = 0
 while num!=0:
